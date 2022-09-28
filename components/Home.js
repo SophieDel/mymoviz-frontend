@@ -49,7 +49,7 @@ function Home() {
   // ];
 
   useEffect(() => {
-    fetch(`http://localhost:3000/movies`)
+    fetch(`${url}/movies`)
       .then((response) => response.json())
       .then((data) => {
         setMoviesData(data.movies);
