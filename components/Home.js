@@ -6,7 +6,8 @@ import Movie from "./Movie";
 import "antd/dist/antd.css";
 import styles from "../styles/Home.module.css";
 
-const url = "http://localhost:3000";
+//const url = "http://localhost:3000";
+const url = "https://mymoviz-backend-ehd2.vercel.app"
 
 function Home() {
   const [likedMovies, setLikedMovies] = useState([]);
